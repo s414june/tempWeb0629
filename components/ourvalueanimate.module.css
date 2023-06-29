@@ -1,0 +1,24 @@
+.container{
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.container>*{
+  left: 30%;
+  height: 38px;
+  position: relative;
+}
+
+.question1,.question2,.question3{
+  position: absolute;
+}
+
+.question1{
+  left: 20%;
+}
+
+.question3{
+  left: unset;
+  right: 20%;
+}
